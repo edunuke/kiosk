@@ -1,0 +1,25 @@
+{
+  "name": "kiosk",
+  "version": "0.0.1",
+  "description": "kiosk client",
+  "main": "index.html",
+  "window": {
+    "toolbar": false,
+    "icon": "my-app-icon.png",
+    "fullscreen": false,
+    "resizable" : false,
+    "width": 1200,
+    "height": 600,
+    "min_width": 400,
+    "min_height": 300
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nw"
+  },
+  "author": "Eduardo",
+  "license": "ISC",
+  "dependencies": {
+    "nw": "^0.31.5"
+  }
+}
