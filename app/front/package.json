@@ -3,11 +3,14 @@
   "version": "0.0.1",
   "description": "kiosk client",
   "main": "index.html",
+  "chromium-args": "",
   "window": {
-    "toolbar": false,
+    "toolbar": true,
     "icon": "my-app-icon.png",
+    "transparent": false,
+    "frame": true,
     "fullscreen": false,
-    "resizable": false,
+    "resizable": true,
     "width": 640,
     "height": 1080,
     "min_width": 400,
@@ -21,6 +24,6 @@
   "license": "ISC",
   "dependencies": {
     "jquery": "^3.3.1",
-    "nw": "^0.31.5"
+    "nw": "^0.32.0-sdk"
   }
 }

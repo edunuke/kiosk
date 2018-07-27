@@ -5,30 +5,16 @@
     <title>kiosk</title>
   </head>
   <link rel="stylesheet" type="text/css" href="index.css" media="screen" />
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  
+  <script src="index.js"></script>
+
   <body>
 
-    <p id="py-output"></p>|
-    <div class="container">
-
-    <input type="checkbox" id="cbtest" />
-    <label for="cbtest" class="check-box"></label> 
-
-</div>
-    
-    <script>
- 
-      $(document).ready(function(){
-        $()
-          $.ajax({
-              url: "http://localhost:5001/user",
-              method: "GET"
-          }).done(function(data) {
-              $("#py-output").html(JSON.stringify(data));
-          });
-      });
-  
-    </script>  
+    <div class="numpad"></div>
+    <input id="pin" name="pin">
     
   </body>
+  <script src="/node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="index.js"></script>
+
 </html>
