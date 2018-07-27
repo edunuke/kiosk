@@ -7,9 +7,9 @@
     "toolbar": false,
     "icon": "my-app-icon.png",
     "fullscreen": false,
-    "resizable" : false,
-    "width": 1200,
-    "height": 600,
+    "resizable": false,
+    "width": 640,
+    "height": 1080,
     "min_width": 400,
     "min_height": 300
   },
@@ -20,6 +20,7 @@
   "author": "Eduardo",
   "license": "ISC",
   "dependencies": {
+    "jquery": "^3.3.1",
     "nw": "^0.31.5"
   }
 }
